@@ -61,6 +61,15 @@
     font-size: 80px;
 }
 
+@media (max-width: 767px) {
+    .fs-10 {
+        font-size: 40px;
+    }
+    .fs-9 {
+        font-size: 30px;
+    }
+}
+
 .fs-9 {
     font-size: 50px;
 }
@@ -119,10 +128,15 @@
 .banner-section {
     background-image: url("../img/banner.jpg");
     background-size: cover;
-    height: 92vh;
-    margin-top: 70px;
+    height: 95vh;
+    margin-top: 60px;
 }
-
+@media (max-width:768){
+    .banner-section {
+        height: 97vh;
+        margin-top: 40px;
+    }
+}
   .image-container {
     position: relative;
     overflow: hidden;
